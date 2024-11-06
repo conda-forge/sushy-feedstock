@@ -1,5 +1,5 @@
 {% set name = "sushy" %}
-{% set version = "3.2.0" %}
+{% set version = "3.3.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 8abf4f0852b53df805e0f72a55820c9a867a2b844d02f064c333100d8b8aa009
+  sha256: 3c6ad93e703d903ab2fc85128a11167ca65ad2dd5402436720a5b3f3f02ea4fc
 
 build:
   number: 0
@@ -41,8 +41,7 @@ about:
   license: Apache Software
   license_family: APACHE
   license_file: LICENSE
-  summary: Sushy is a Python library to communicate with Redfish based systems. The goal of the library is to be extremely simple, small, have as few dependencies
-    as possible and be very conservative when dealing with BMCs by issuing just enough requests to it (BMCs are very flaky).
+  summary: Sushy is a Python library to communicate with Redfish based systems. The goal of the library is to be extremely simple, small, have as few dependencies as possible and be very conservative when dealing with BMCs by issuing just enough requests to it (BMCs are very flaky).
 
 extra:
   recipe-maintainers:
