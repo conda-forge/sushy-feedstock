@@ -5,7 +5,7 @@ Home: https://github.com/openstack/sushy
 
 Package license: Apache Software
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Sushy is a Python library to communicate with Redfish based systems. The goal of the library is to be extremely simple, small, have as few dependencies as possible and be very conservative when dealing with BMCs by issuing just enough requests to it (BMCs are very flaky).
 
